@@ -1,8 +1,22 @@
 
 /* Your CSS Code here. */
-table,td{
-	border: 1px solid black;
+.table{
+	border-collapse: collapse;
+	width:100%;
 }
-.right{
-	text-align: center;
+.table td,.table th{
+	// border: 1px solid #ddd;
+     padding: 8px
+
 }
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+#total{
+	text-align:right;
+}
+.table-hover tr:hover {background-color: #ddd;}
